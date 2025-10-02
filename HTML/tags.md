@@ -16,6 +16,7 @@ Exemplo:
 Exemplo:
     
     <p>Esse texto é <strong>IMPORTANTE</strong></p>
+<img width="231" height="36" alt="image" src="https://github.com/user-attachments/assets/35dd4cc2-7d17-471d-b961-9f217545e476" />
 
 ---
 
@@ -25,6 +26,8 @@ Exemplo:
 Exemplo:
      
     <p>Esse texto é <em>ENFATIZADO</em></p>    
+<img width="203" height="31" alt="image" src="https://github.com/user-attachments/assets/e86c647e-f1bb-45ba-bcee-df71ab8beff3" />
+
     
 ---
 
@@ -34,6 +37,8 @@ Exemplo:
 Exemplo:
         
     <p>Esse texto é <s>TACHADO</s></p>
+<img width="181" height="30" alt="image" src="https://github.com/user-attachments/assets/1715164b-89df-49b7-8e02-109dda83a6da" />
+
 
 ---
     
@@ -43,6 +48,8 @@ Exemplo:
 Exemplo:
         
     <p>H<sub>2</sub>O</p>
+<img width="143" height="35" alt="image" src="https://github.com/user-attachments/assets/b7bf5fac-9124-42a7-9a48-6b9257d3dc81" />
+
 
 ## Tags semânticas:
 São projetadas para transmitir significado e fornecer um contexto estrutural ao conteúdo.
@@ -68,8 +75,8 @@ São usadas para alterar a aparência e o estilo do texto em documento HTML.
 
 Exemplo:
 
-    <body>
     <p>Este texto es´ta no formato <i>Italic</i></p>
+<img width="240" height="35" alt="image" src="https://github.com/user-attachments/assets/91b6c116-b619-46dc-9769-5f99d16c0165" />
 
 
 
