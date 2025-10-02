@@ -16,7 +16,8 @@ Exemplo:
 Exemplo:
     
     <p>Esse texto é <strong>IMPORTANTE</strong></p>
-    
+
+---
 
 `<em>` :
     Texto é enfatizado.
@@ -24,6 +25,8 @@ Exemplo:
 Exemplo:
      
     <p>Esse texto é <em>ENFATIZADO</em></p>    
+    
+---
 
 `<s>`:
     Texto é tachado com uma linha no meio.
@@ -31,6 +34,8 @@ Exemplo:
 Exemplo:
         
     <p>Esse texto é <s>TACHADO</s></p>
+
+---
     
 `<sub>`:
     Texto sub-linhado
@@ -53,6 +58,8 @@ Exemplo:
     
 <img width="168" height="105" alt="image" src="https://github.com/user-attachments/assets/eb42ba40-7d9c-4a50-a37b-54fe2344be4e" />
 
+---
+
 ## Tags semânticas:
 São usadas para alterar a aparência e o estilo do texto em documento HTML.
 
@@ -63,6 +70,7 @@ Exemplo:
 
     <body>
     <p>Este texto es´ta no formato <i>Italic</i></p>
+
 
 
 
