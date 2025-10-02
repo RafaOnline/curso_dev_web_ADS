@@ -1,5 +1,5 @@
 ## Tags HTML:
-    São usadas para definir uma estrutura, layout e apresentação dos vários elementos dentro de um documento HTML.
+São usadas para definir uma estrutura, layout e apresentação dos vários elementos dentro de um documento HTML.
     
 `alt`:
     Nome a ser exibido caso não carregue algum conteúdo.
@@ -63,6 +63,7 @@ Exemplo:
 
     <body>
     <p>Este texto es´ta no formato <i>Italic</i></p>
+
 
 
 
