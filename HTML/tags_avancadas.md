@@ -32,11 +32,11 @@ Exemplo:
 
 ## Tabela:
 
-`<table>`:
+`<table>`: Define a tabela
 
-`<tr>`:
+`<tr>`: Define as colunas
 
-`<th>`:
+`<th>`: Define os conteúdos de cada coluna
 
 Exemplo: 
     
