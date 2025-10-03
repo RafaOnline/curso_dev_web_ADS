@@ -74,11 +74,18 @@ Exemplo:
 
         <source src="path/to/video.mp4" type="video/mp4">
         <source src="path/to/video.mp4" type="video/mp4">
-
+        Seu navegador não suporta esse video
     </video>
 
 ## Mídias de áudio:
 
+`<audio>`
+
+Exemplo:
+
+    <audio src="path/to/audio.mp3" controls>
+    Seu navegador não suporta esse audio
+    </audio>
 
 
 
