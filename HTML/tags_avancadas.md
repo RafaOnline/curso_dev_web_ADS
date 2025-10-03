@@ -64,6 +64,21 @@ Exemplo:
 <img width="224" height="83" alt="image" src="https://github.com/user-attachments/assets/432dbb4f-6fee-49b4-82a6-9cba33ce0171" />
 
 
+## Mídias de video:
+
+`<video>`
+
+Exemplo: 
+
+    <video controls width="560" height="315">
+
+        <source src="path/to/video.mp4" type="video/mp4">
+        <source src="path/to/video.mp4" type="video/mp4">
+
+    </video>
+
+## Mídias de áudio:
+
 
 
 
