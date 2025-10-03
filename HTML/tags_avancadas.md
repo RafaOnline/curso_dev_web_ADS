@@ -30,7 +30,38 @@ Exemplo:
 <img width="208" height="76" alt="image" src="https://github.com/user-attachments/assets/1da9d619-0284-4938-9c9c-851ba4b9d0eb" />
 
 
+## Tabela:
 
+`<table>`:
+
+`<tr>`:
+
+`<th>`:
+
+Exemplo: 
+    
+    <table>
+
+    <tr>
+        <th>Itens</th>
+        <th>Quantidade</th>
+        <th>Total</th>
+    </tr>
+       
+    <tr>
+        <th>Registro 01</th>
+        <th>3</th>
+        <th>R$30</th>
+    </tr>
+
+    <tr>
+        <th>Registro 02</th>
+        <th>2</th>
+        <th>R$30</th>
+    </tr>
+
+    </table>
+    
 
 
 
