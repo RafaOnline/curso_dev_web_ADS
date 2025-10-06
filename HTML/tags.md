@@ -1,4 +1,4 @@
-## Tags HTML:
+## 🏷️ Tags HTML:
 São usadas para definir uma estrutura, layout e apresentação dos vários elementos dentro de um documento HTML.
     
 `alt`:
@@ -8,7 +8,7 @@ Exemplo:
 
     < img src="imagens.png" alt = "nome do conteúdo" >
     
-## Tags Textuais:
+## ✍️ Tags Textuais:
 
 `<strong>` :
     Deixa o texto em negrito.
@@ -51,7 +51,7 @@ Exemplo:
 <img width="143" height="35" alt="image" src="https://github.com/user-attachments/assets/b7bf5fac-9124-42a7-9a48-6b9257d3dc81" />
 
 
-## Tags semânticas:
+## 🏗️ Tags semânticas:
 São projetadas para transmitir significado e fornecer um contexto estrutural ao conteúdo.
 
 Exemplo:
@@ -67,7 +67,7 @@ Exemplo:
 
 ---
 
-## Tags semânticas:
+## 🎨 Tags de formatação textual:
 São usadas para alterar a aparência e o estilo do texto em documento HTML.
 
 
@@ -77,6 +77,7 @@ Exemplo:
 
     <p>Este texto es´ta no formato <i>Italic</i></p>
 <img width="240" height="35" alt="image" src="https://github.com/user-attachments/assets/91b6c116-b619-46dc-9769-5f99d16c0165" />
+
 
 
 
