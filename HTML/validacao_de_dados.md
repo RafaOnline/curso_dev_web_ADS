@@ -10,7 +10,7 @@ No HTML5 há dois tipos de validação passíves:
 ## Regex
 Oque é Regex?
 
-Padrão de texto: Uma expressão regular é um conjunto de caracteres que forma um padrão de busca. 
+Padrão de texto: Uma expressão regular é um conjunto de caracteres que forma um padrão.
 
 *Exemplos de Regex:*
 
