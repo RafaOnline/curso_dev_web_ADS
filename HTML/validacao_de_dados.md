@@ -15,5 +15,7 @@ Padrão de texto: Uma expressão regular é um conjunto de caracteres que forma 
 *Exemplos de Regex:*
 
 -[0-9]{5}-[0-9]{3,4}$
+
 -[ABC]{3}-[1-5]{4}
+
 -[^ABC]{3}-[1-5]{4}
