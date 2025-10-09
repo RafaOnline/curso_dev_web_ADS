@@ -3,6 +3,15 @@
 ## Pseudo-elementos:
 São palavras-chaves que podem ser adicionadas ou relacionadas a um seletor para estilizar uma parte específica dele.
 
+Exemplo: 
+
+<img width="307" height="113" alt="image" src="https://github.com/user-attachments/assets/752c2cb8-72af-401e-8bb5-08fae0da7339" />
+
+Resultado:
+
+<img width="371" height="118" alt="image" src="https://github.com/user-attachments/assets/aa2c964b-34de-4db5-af59-7983442a6eb2" />
+
+
 
 ## Pseudo-classes:
 São utilizados para definir um estado especial de um elemento.
