@@ -8,3 +8,4 @@ São palavras-chaves que podem ser adicionadas ou relacionadas a um seletor para
 São utilizados para definir um estado especial de um elemento.
 
 ## Box model:
+Está realicionado ao conceito de como é feioto o desing e layout em CSS.
