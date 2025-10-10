@@ -16,6 +16,7 @@ Resultado:
 ## Pseudo-classes:
 São utilizados para definir um estado especial de um elemento.
 
+
 Exemplo:
 
 <img width="269" height="83" alt="image" src="https://github.com/user-attachments/assets/db2bc635-9af0-41f8-bb08-e9e3370c795b" />
@@ -36,3 +37,6 @@ Os boxes, possuem quatro componentes principais:
 - Conteúdo(content)
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/69ba2ba4-8de9-4245-9c6f-f2dc034ed507" />
+
+
+## Grid layout x Flexbox layout
