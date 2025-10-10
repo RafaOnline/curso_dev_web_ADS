@@ -40,3 +40,20 @@ Os boxes, possuem quatro componentes principais:
 
 
 ## Grid layout x Flexbox layout
+São dois conceitos de estrutura visuais de páginas
+
+**Grid layout:**
+Elementos em colunas ou linhas podendo trabalhar com os dois juntos
+
+
+**Flex layout:**
+Elementos que ficam somente em coluna ou linha somente um tipo de layout.
+
+
+
+
+
+
+
+
+
