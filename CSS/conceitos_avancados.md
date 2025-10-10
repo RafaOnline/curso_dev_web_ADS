@@ -50,6 +50,8 @@ Elementos em colunas ou linhas podendo trabalhar com os dois juntos
 Elementos que ficam somente em coluna ou linha somente um tipo de layout.
 
 
+<img width="311" height="236" alt="image" src="https://github.com/user-attachments/assets/bc4c91cd-d7c0-4302-85a0-4d8d8ba1e1aa" />
+
 
 
 
