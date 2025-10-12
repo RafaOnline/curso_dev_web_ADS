@@ -7,7 +7,7 @@ As cores em CSS pode ser escritas de três modos:
 - Com um sistema de coordenada cilíndrica HSL, com anotações hsl() hsla().
 
 Exemplo:
-      
+```html
     <!DOCTYPE html>
     <html lang="en">
 
@@ -55,6 +55,7 @@ Exemplo:
     </body>
 
     </html>
+```
 
 Resultado:
 
