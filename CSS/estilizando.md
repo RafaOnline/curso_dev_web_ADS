@@ -22,6 +22,7 @@ Essa forma envolve a declaração do estilo CSS diretamente na tag, no código H
 
 Também chamada de CSS incorporada, é declarada na seção <head> do documento HTML.
 
+```html
     <html>
       <head>
         <style type"text/css">
@@ -31,11 +32,12 @@ Também chamada de CSS incorporada, é declarada na seção <head> do documento 
         </style>
       </head>
     </html>
-
+```
 ## CSS externa
 
 Nesse caso, os estilos são declarados em um arquivo externo, com extensão “.css” e vinculados ao documento HTML por meio da tag **<link>**.
-
+```html
     <html>
       <link rel="stylesheet" type="text/css" href="style.css">
     </html>
+```
