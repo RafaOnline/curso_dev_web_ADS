@@ -54,6 +54,56 @@ Elementos que ficam somente em coluna ou linha somente um tipo de layout.
 
 
 ## Posicionamento de elementos
+Elementos podem ser posicionados de várias maneiras.
+
+**Flexbox Row** (display: flex; flex-direction: row;)
+
+- Organiza os elementos horizontalmente (em linha).
+- Os itens são colocados lado a lado, da esquerda para a direita.
+- Ideal para menus, barras de navegação, ou qualquer layout horizontal.
+
+
+**Flexbox Col** (display: flex; flex-direction: column;)
+
+- Organiza os elementos verticalmente (em coluna).
+- Os itens são empilhados de cima para baixo.
+- Útil para listas, colunas de conteúdo, etc.
+
+
+**Grid** (display: grid;)
+
+- Permite criar layouts bidimensionais (linhas e colunas).
+- Muito poderoso para layouts complexos.
+- Exemplo: grid-template-columns: 1fr 2fr; define duas colunas com larguras proporcionais.
+
+
+**Posição Absoluta** (position: absolute;)
+
+- O elemento é removido do fluxo normal do documento.
+- Posicionado em relação ao elemento pai com position: relative.
+- Exemplo: top: 10px; left: 20px; posiciona o elemento 10px do topo e 20px da esquerda do pai.
+
+
+**Posição Estática** (position: static;)
+
+- É o comportamento padrão.
+- O elemento segue o fluxo normal do documento.
+- Não responde a propriedades como top, left, etc.
+
+
+**Posição Relativa**(position: relative;)
+
+- O elemento permanece no fluxo normal, mas pode ser ajustado com top, left, etc.
+- Serve também como referência para elementos com position: absolute.
+
+
+**Posição Fixa** (position: fixed;)
+
+- O elemento é fixado em relação à janela de visualização (viewport).
+- Não se move ao rolar a página.
+- Exemplo: position: fixed; bottom: 0; fixa o elemento no rodapé da tela.
+
+
 
 
 
