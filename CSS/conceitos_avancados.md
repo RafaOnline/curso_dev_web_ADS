@@ -105,7 +105,7 @@ Elementos podem ser posicionados de várias maneiras.
 
 # Exemplo em **html**
 
-´´´html
+```html
     <!DOCTYPE html>
     <html lang="en">
 
@@ -250,8 +250,11 @@ Elementos podem ser posicionados de várias maneiras.
     </body>
 
     </html>
-´´´
+```
 
+Resultado:
+
+<img width="1342" height="592" alt="image" src="https://github.com/user-attachments/assets/390448e2-7449-4d8b-90a6-300db4ad862e" />
 
 
 
