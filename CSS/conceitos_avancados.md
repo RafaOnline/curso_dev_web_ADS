@@ -103,6 +103,155 @@ Elementos podem ser posicionados de várias maneiras.
 - Não se move ao rolar a página.
 - Exemplo: position: fixed; bottom: 0; fixa o elemento no rodapé da tela.
 
+# Exemplo em **html**
+
+´´´html
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Posicionamento em CSS</title>
+    <style>
+
+
+          #container-flexbox-row{
+              display: flex;
+              flex-direction: row;
+              background-color: green;
+          }
+  
+          #container-flexbox-col {
+              display: flex;
+              flex-direction: column;
+               background-color: green;
+  
+          }
+  
+          #container-grid{
+              display: grid;
+              grid-template-columns:
+                  50px 50px 50px 50px 50px;
+             /* grid-template-row:
+                  50px 50px 50px 50px 50px*/
+          }
+  
+          #container-grid div {
+              border: 1px solid black;
+              background: red;
+          }
+  
+          #container-absolute {
+              background-color: orange;
+              position: absolute;
+              top: 80px;
+              right: 0;
+              height: 100px;
+              width: 200px;
+              border: 3px solid black;
+              color: #000;
+          }
+  
+          #container-static {
+              border: 3px solid #73AD21;
+              width: 300px;
+              background: rgb(106, 90, 205);
+          }
+  
+          #container-relative{
+              position: relative;
+              left: 30px;
+              border: 3px solid green;
+              width: 300px;
+              background:rgb(106, 90, 205);
+          }
+  
+          #container-fixed {
+              position: fixed;
+              bottom: 0;
+              right: 0;
+              width: 300px;
+              background-color: orange;
+              border: 3px solid black;
+          }
+      </style>
+    </head>
+
+    <body>
+  
+      <h1>Flexbox row</h1>
+      <div id="container-flexbox-row">
+          <div>
+              Flexbox 1
+          </div>
+  
+          <div>
+              Flexbox 2
+          </div>
+  
+          <div>
+              Flexbox 3
+          </div>
+      </div>
+  
+      <h1>Flexbox col</h1>
+      <div id="container-flexbox-col" >
+          <div>
+              Flexbox 1
+          </div>
+  
+          <div>
+              Flexbox 2
+          </div>
+  
+          <div>
+              Flexbox 3
+          </div>
+      </div>
+  
+      <h1>Grid</h1>
+      <div id="container-grid">
+          <div>col1</div>
+          <div>col2</div>
+          <div>col3</div>
+          <div>col4</div>
+          <div>col5</div>
+      </div>
+  
+      <h1>Posição absoluta</h1>
+      <div id="container-absolute">
+          <div>
+              Absolute: posicionado em relação ao elemento
+              anterior ou, na ausência desse, em relação á tag body.
+          </div>
+      </div>
+  
+      <h1>Posição estática</h1>
+      <div id="container-static">  
+          <div>
+              Static: Posicionamento natural do elementos.
+          </div>
+      </div>
+  
+      <h1>Posição relativa</h1>
+      <div id="container-relative">
+          <div>
+              Relative: posicionado em a relação á sua posição natural(static)
+          </div>
+      </div>
+  
+      <h1>Posição fixa</h1>
+      <div id="container-fixed">
+          <div>
+              Fixed: posicionado de forma fixa em relação ao viewport.
+          </div>
+      </div>
+    </body>
+
+    </html>
+´´´
+
 
 
 
