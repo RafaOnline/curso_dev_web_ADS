@@ -4,7 +4,7 @@ Abaixo possui algun frameworks que podem ajudar em desenvolvimentos front-end
 - Semantic UI: https://semantic-ui.com/
 - Bootstrap: https://getbootstrap.com/
 
-## Prática
+## Prática Bootstrap
 Aplicando o sistema de grid do Bootstrap
 
 Código:
