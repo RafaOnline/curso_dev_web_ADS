@@ -3,6 +3,8 @@
 ## Funções no Java Script
 Um breve resumo da introdução passada em aula.
 
+Todos os conteúdos que terão nessa unidade foram mostrados resumidamente
+
 ```js
   
 // Arrow Function
