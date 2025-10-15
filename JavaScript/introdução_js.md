@@ -1,6 +1,6 @@
 # Introdução ao JavaScript
 
-## Funções no Java Script
+## Funções
 Um breve resumo da introdução passada em aula.
 
 Todos os conteúdos que terão nessa unidade foram mostrados resumidamente
