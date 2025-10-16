@@ -38,3 +38,34 @@ const exibirSoma = (a,b) => {
   alert('A soma será ${c}');
 }
 ```
+
+## Eventos do **HTML**
+
+Interatividade no HTML:
+- Componentes de entrada e caixas de diálogo
+- Utilização de eventos
+- Resposta aos eventos através de funções JavaScript
+- Possibilidade de associação dinâmia como ocorre no JQuery
+
+---
+
+Alguns Eventos do HTML
+- onLoad
+- onClick
+- onDblClick
+- onSubmit
+- onChange
+- onBlur
+- onFocus
+- onKeyPress
+- onMouseOver
+- onMouseOut
+
+```js
+
+// Exemplo: Mostra algo ao clicar
+
+$("#cmd1").on("click", (event)=> {
+  hiddenBox.show()
+});
+```
