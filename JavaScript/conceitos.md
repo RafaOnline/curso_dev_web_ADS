@@ -70,7 +70,9 @@ $("#cmd1").on("click", (event)=> {
 });
 ```
 
-Exemplo prático de Modificação com HTML e JavaScript:
+---
+
+Exemplo prático de Modificação com **HTML** e **JavaScript**.
 
 Código:
 
