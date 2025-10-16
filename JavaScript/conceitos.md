@@ -69,3 +69,28 @@ $("#cmd1").on("click", (event)=> {
   hiddenBox.show()
 });
 ```
+
+Exemplo prático de Modificação com HTML e JavaScript:
+
+Código:
+
+```html
+<html>
+    <body>
+        <div id="d1">Conteúdo Original</div>
+        <button onClick="alterar()">Clique Aqui</button>
+        <script>
+            const alterar = () => {
+                let d1 = document.getElementById("d1");
+                d1.innerHTML="Conteúdo Alterado";
+                d1.style.backgroundColor="yellow";
+            }
+        </script>
+    </body>
+</html>
+```
+
+Resultado:
+
+<img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/ff8e5246-4787-4357-9d69-6d693e4d223a" />
+
