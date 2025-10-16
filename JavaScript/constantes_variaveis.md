@@ -16,7 +16,7 @@ const nome = "Rafael"; // Variável que não pode ser alterada
 
 - Aritméticos: + - * / %
 - Lógico e Binários: && || ! | & ^
-- Relacionais: >= == != <= > <
+- Relacionais: >= === != <= > <
 - Concatenação: + ${}
 - Decisão: ?
 
