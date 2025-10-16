@@ -9,10 +9,11 @@ Interpretação das **TAGS** de forma **Hierárquica**
 ## Seleção de Elementos
 
 ```js
+//Seleciona o elemento pela TAG e realiza a alteração interna.
+
 let elemento =
   document.getElementById("C1");
 elemento.innerHTML = "<p>XPTO</p>";
-//Seleciona o elemento pela TAG e realiza a alteração interna.
 ```
 Principais Métodos de Seleção:
 
