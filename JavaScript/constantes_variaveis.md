@@ -9,7 +9,7 @@
 Exemplo:
 ```js
 let a = 10; // Varíavel que pode ser alterada
-cont nome = "Rafael"; // Variável que não pode ser alterada
+const nome = "Rafael"; // Variável que não pode ser alterada
 ```
 
 ## Tipo de Operadores
