@@ -21,3 +21,20 @@ Principais Métodos de Seleção:
 - **getElementsByClassName**: Seleciona os elementos pela **CLASSE**
 - **getElementsById**: Seleciona os elementos pela **ID**
 - **getElementsByName**: Seleciona os elementos pelo **NOME**
+
+## Funções em JavaScript
+
+```js
+//Formato tradicional (antigo)
+function exibirSoma(a,b) {
+  let c = a + b;
+  alert('A soma será ${c}');
+}
+```
+```js
+// Arrow function (novo)
+const exibirSoma = (a,b) => {
+   let c = a + b;
+  alert('A soma será ${c}');
+}
+```
