@@ -26,9 +26,10 @@ const nome = "Rafael"; // Variável que não pode ser alterada
   let k = 5 ^ 2: 
   ```
 
-  ## Classes e Objetos
+## Classes e Objetos
 
-  Definição de **Classes**:
+Definição de **Classes**:  Classes em JavaScript são uma forma de organizar e estruturar código orientado a objetos. Elas permitem criar modelos (ou "moldes") para objetos, agrupando dados (propriedades) e comportamentos (métodos) relacionados.
+  
 
 ```js
 // Sintaxe nova
