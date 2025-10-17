@@ -25,3 +25,35 @@ const nome = "Rafael"; // Variável que não pode ser alterada
   let texto = (z >= 5) ? "APR" : "RPR;
   let k = 5 ^ 2: 
   ```
+
+  ## Classes e Objetos
+
+  Definição de **Classes**:
+
+```js
+// Sintaxe nova
+class Pessoa {
+    constructor(nome,idade){
+        this.nome = nome; this.idade = idade;
+    }
+    exibir = () => console.log(`${this.nome} ${this.idade}`);
+};
+
+
+// Criando uma instância da classe
+const pessoa1 = new Pessoa("Rafael", 30);
+
+// Chamando o método exibir
+pessoa1.exibir();
+```
+```js
+// Sintaxe antiga
+function Pessoa(nome, idade){
+    this.nome = nome;  this.idade = idade;
+    this.exibir = () => console.log(`${this.nome} ${this.idade}`);
+};
+
+const teste = new Pessoa("Rafael", 30);
+
+teste.exibir();
+```
