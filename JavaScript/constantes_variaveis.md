@@ -58,3 +58,17 @@ const teste = new Pessoa("Rafael", 30);
 
 teste.exibir();
 ```
+
+Definição de Objetos em **JSON**:
+
+JSON não permite definir classes, métodos ou funções.
+Ele é usado apenas para representar dados, não comportamentos.
+
+
+```js
+const p = {
+    nome: "Ana",
+    idade = 25,
+    exibir(){alert(`${this.nome} ${this.idade}`)}
+};
+```
