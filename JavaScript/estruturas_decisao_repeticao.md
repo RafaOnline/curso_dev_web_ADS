@@ -211,6 +211,8 @@ Comando Swtich
             case 1:
                 // Se o resto da divisão por 2 for 1, o número é ímpar
                 Exibe a mensagem correspondente em uma caixa de alerta
+                frase = "O número é ímpar";
+                break;
         alert(frase);
     </script>
 </body>
