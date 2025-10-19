@@ -23,7 +23,12 @@ Caracteristicas Gerais:
 ```javascript
 const b = 10, c = 5;
 let w;
+
+// Com aritmética
+let f = (x + 2) < Math.pow(x , 3);
 ```
+
+
 | Instrução | Resultado |
 |:---------:|:---------:|
 | w = a > b; | 🟩 True |
