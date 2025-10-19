@@ -152,4 +152,68 @@ Estrutua if else aninhada
 </body>
 </html>
 ```
+
+Operadores lógicos
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saudação com Operador Ternário</title>
+</head>
+<body>
+    <h2>Estrutura if else if com operador ternário</h2>
+    <p>Modifica a saudação de acordo com a hora do dia</p>
+    <p id="demo">Que horas são?</p>
+
+    <script>
+        // Obtém o elemento HTML com id "demo"
+        let painel = document.getElementById("demo");
+
+        // Obtém a hora atual do sistema (0 a 23)
+        let hora = new Date().getHours();
+
+        // Usa operador ternário para definir a saudação com base na hora
+        // Se hora < 12 → "Bom dia!"
+        // Se hora < 18 → "Boa tarde!"
+        // Caso contrário → "Boa noite!"
+        painel.innerHTML = 
+            (hora < 12) ? "Bom dia!" :
+            (hora < 18) ? "Boa tarde!" :
+                             </script>
+</body>
+</html>
+```
+Comando Swtich 
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Par ou Ímpar</title>
+</head>
+<body>
+    <script>
+        // Inicializa a variável 'frase' como string vazia
+        let frase = "";
+
+        // Solicita ao usuário que digite um valor e converte para número usando eval
+        let b = eval(prompt("Valor"));
+
+        // Usa a estrutura switch para verificar se o número é par ou ímpar
+        switch (b % 2) {
+            case 0:
+                // Se o resto da divisão por 2 for 0, o número é par
+                frase = "O número é par";
+                break;
+            case 1:
+                // Se o resto da divisão por 2 for 1, o número é ímpar
+                Exibe a mensagem correspondente em uma caixa de alerta
+        alert(frase);
+    </script>
+</body>
+</html>
+```
   
