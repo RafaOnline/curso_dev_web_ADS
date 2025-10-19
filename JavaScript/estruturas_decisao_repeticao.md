@@ -220,4 +220,34 @@ Comando Swtich
 ```
 Mais exemplo com Switch
 ```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch</title>
+</head>
+<body>
+    <h1>JavaScript Switch</h1>
+    <p id="demo"></p>
+
+    <script>
+        // Declara a variável que vai armazenar o nome do dia
+        let day;
+
+        // Obtém o número do dia da semana (0 = Domingo, 6 = Sábado)
+        switch (new Date().getDay()) {
+            case 0: day = "Domingo"; break;
+            case 1: day = "Segunda"; break;
+            case 2: day = "Terça"; break;
+            case 3: day = "Quarta"; break;
+            case 4: day = "Quinta"; break;
+            case 5: day = "Sexta"; break;
+            default: day = "Sábado"; break;
+        }
+
+               document.getElementById("demo").innerHTML = "Hoje é " + day;
+    </script>
+</body>
+</html>
 ```
