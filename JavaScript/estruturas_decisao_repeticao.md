@@ -154,7 +154,7 @@ Estrutua if else aninhada
 ```
 
 Operadores lógicos
-```javascript
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -186,7 +186,7 @@ Operadores lógicos
 </html>
 ```
 Comando Swtich 
-```javascript
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -218,4 +218,6 @@ Comando Swtich
 </body>
 </html>
 ```
-  
+Mais exemplo com Switch
+```html
+```
