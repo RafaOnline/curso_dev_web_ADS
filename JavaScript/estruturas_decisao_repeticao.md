@@ -13,3 +13,22 @@ if(a%2 == 0){
     console.log(`Valor &{a}`);
 }
 ```
+
+---
+
+### Operadores Relacionais
+Caracteristicas Gerais:
+- Tem como entrada dois valores númericos e como saida um valor booleano
+- Aceita variáveis e instruções aritméticas
+```javascript
+const b = 10, c = 5;
+let w;
+```
+| Instrução | Resultado |
+|:---------:|:---------:|
+| w = a > b; | 🟩 True |
+| w = a < b; | 🟥 False |
+| w = a == b; | 🟥 False |
+| w = a != b; | 🟩 True |
+| w = a >= b; |🟩 True |
+| w = a <= b; | 🟥 False |
