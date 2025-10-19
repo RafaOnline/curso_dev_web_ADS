@@ -37,3 +37,13 @@ let f = (x + 2) < Math.pow(x , 3);
 | w = a != b; | 🟩 True |
 | w = a >= b; |🟩 True |
 | w = a <= b; | 🟥 False |
+
+### Operadores Lógicos
+Características gerais
+- Tem como entrada dois valores booleanos e como saída um valor booleano
+- Permite combinar operações relacionais
+- Curto-circuito minimiza comparações
+
+```javascript
+let f = (x <= 2) && ( y != 3);
+```
