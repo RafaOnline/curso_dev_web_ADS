@@ -6,6 +6,13 @@
 - Comandos são executados apenas se a condição for verdadeira
 - Para mais uma instrução, é obrigatório delimitar o bloco com chaves, mas para uma instrução intrução simples as chaves são opcionais.
 
+
+---
+
+### Operadores Relacionais
+Caracteristicas Gerais:
+- Tem como entrada dois valores númericos e como saida um valor booleano
+- Aceita variáveis e instruções aritméticas
 ```javascript
 // Declaração de constantes
 const b = 10, c = 5; // b e c são constantes com valores fixos
@@ -22,21 +29,6 @@ let f = (x + 2) < Math.pow(x, 3);
 // - Math.pow(x, 3): calcula x³ (x elevado à terceira potência)
 // - O operador '<' compara se o resultado da soma é menor que o resultado da exponenciação
 ```
-
----
-
-### Operadores Relacionais
-Caracteristicas Gerais:
-- Tem como entrada dois valores númericos e como saida um valor booleano
-- Aceita variáveis e instruções aritméticas
-```javascript
-const b = 10, c = 5;
-let w;
-
-// Com aritmética
-let f = (x + 2) < Math.pow(x , 3);
-```
-
 
 | Instrução | Resultado |
 |:---------:|:---------:|
