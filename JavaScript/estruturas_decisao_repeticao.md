@@ -7,11 +7,20 @@
 - Para mais uma instrução, é obrigatório delimitar o bloco com chaves, mas para uma instrução intrução simples as chaves são opcionais.
 
 ```javascript
-let a = eval(prompt("Numero: "));
-if(a%2 == 0){
-    alert("O número é par");
-    console.log(`Valor &{a}`);
-}
+// Declaração de constantes
+const b = 10, c = 5; // b e c são constantes com valores fixos
+
+// Declaração de variável
+let w; // w é uma variável que pode ser usada posteriormente
+
+// Expressão com aritmética e comparação
+// Aqui, 'f' será verdadeiro se (x + 2) for menor que x elevado à 3ª potência
+let f = (x + 2) < Math.pow(x, 3);
+
+// Explicação:
+// - (x + 2): soma 2 ao valor de x
+// - Math.pow(x, 3): calcula x³ (x elevado à terceira potência)
+// - O operador '<' compara se o resultado da soma é menor que o resultado da exponenciação
 ```
 
 ---
