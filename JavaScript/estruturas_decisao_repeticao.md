@@ -100,4 +100,11 @@ Exemplos:
 - Se x = 2 e y = 3 → f = false (porque y != 3 é falso)
 
   ---
+
+  ### Comando `IF` `ELSE` - Estrutura Se/Então/Senão
+  - Comandos diferentes executados para cada resultado da condição(verdadeira ou falsa)
+  - Para mais de uma instrução, é obrigatório delimitar o bloco com chaves, mas para uma intrução simples as chaves são opcionais.
+ 
+  ```javascript
+  ```
   
