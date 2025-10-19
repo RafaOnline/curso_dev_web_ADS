@@ -105,6 +105,17 @@ Exemplos:
   - Comandos diferentes executados para cada resultado da condição(verdadeira ou falsa)
   - Para mais de uma instrução, é obrigatório delimitar o bloco com chaves, mas para uma intrução simples as chaves são opcionais.
  
-  ```javascript
-  ```
+```javascript
+  // Solicita ao usuário que digite um número
+let a = eval(prompt("Número: "));
+
+// Verifica se o número é par ou ímpar
+if (a % 2 == 0) {
+    // Se o número for par, exibe uma mensagem de alerta
+    alert("O número é par");
+} else {
+    // Se o número for ímpar, exibe uma mensagem de alerta
+    alert("O número é ímpar");
+}
+```
   
