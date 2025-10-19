@@ -5,8 +5,24 @@
 - Comandos são executados apenas se a condição for verdadeira
 - Para mais uma instrução, é obrigatório delimitar o bloco com chaves, mas para uma instrução intrução simples as chaves são opcionais.
 
-Exemplo:
+Exemplos:
 ```javascript
+// Solicita ao usuário que digite um número
+let a = eval(prompt("Número: "));
+
+// Verifica se o número é par usando o operador módulo (%)
+// Se o resto da divisão por 2 for zero, o número é par
+if (a % 2 == 0) {
+    // Exibe um alerta informando que o número é par
+    alert("O número é par");
+
+    // Exibe o valor digitado no console
+    console.log(`Valor: ${a}`);
+}
+```
+
+
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
