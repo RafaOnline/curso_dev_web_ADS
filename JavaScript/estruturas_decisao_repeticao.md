@@ -6,6 +6,34 @@
 - Comandos são executados apenas se a condição for verdadeira
 - Para mais uma instrução, é obrigatório delimitar o bloco com chaves, mas para uma instrução intrução simples as chaves são opcionais.
 
+Exemplo:
+```javascript
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo estrutura IF</title>
+</head>
+<body>
+    <h2>Estrutura IF</h2>
+    <p>Apresenta "Bom dia" se for menos que 12:00</p>
+    <p id="demo">Já passou de meio-dia</p>
+
+    <script>
+        // Obtém a hora atual do sistema
+        let horaAtual = new Date().getHours();
+
+        // Verifica se a hora é menor que 12 (meio-dia)
+        if (horaAtual < 12) {
+            // Se for antes do meio-dia, altera o conteúdo do parágrafo com id "demo"
+            document.getElementById("demo").innerHTML = "Bom dia";
+        }
+        // Caso contrário, o texto "Já passou de meio-dia" permanece
+    </script>
+</body>
+</html>
+```
 
 ---
 
