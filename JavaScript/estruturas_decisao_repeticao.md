@@ -1,6 +1,5 @@
 # Estruturas de decisão e de repetição
 ---
-## Estruturas condicionais em JavaScript
 
 ### Comando `IF` - Estrutura Se/Então
 - Comandos são executados apenas se a condição for verdadeira
