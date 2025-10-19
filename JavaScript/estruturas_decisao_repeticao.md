@@ -38,6 +38,8 @@ let f = (x + 2) < Math.pow(x , 3);
 | w = a >= b; |🟩 True |
 | w = a <= b; | 🟥 False |
 
+---
+
 ### Operadores Lógicos
 Características gerais
 - Tem como entrada dois valores booleanos e como saída um valor booleano
@@ -47,3 +49,11 @@ Características gerais
 ```javascript
 let f = (x <= 2) && ( y != 3);
 ```
+
+Exemplos:
+- Se x = 1 e y = 4 → f = true
+- Se x = 3 e y = 4 → f = false (porque x <= 2 é falso)
+- Se x = 2 e y = 3 → f = false (porque y != 3 é falso)
+
+  ---
+  
