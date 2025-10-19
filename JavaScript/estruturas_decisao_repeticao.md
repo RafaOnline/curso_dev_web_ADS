@@ -118,4 +118,38 @@ if (a % 2 == 0) {
     alert("O número é ímpar");
 }
 ```
+
+Estrutua if else aninhada
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Estrutura if else if</h2>
+    <p>Modifica o comprimento de acordo com a hora do dia</p>
+    <p id="demo">Que horas são?</p>
+    <script>
+        let painel = document.getElementById("demo");
+        let hora = new Date().getHours();
+        if (hora < 12){painel.innerHTML = "Bom dia!";}
+        else if (hora < 18){painel.innerHTML = "Boa tarde";}
+        else{painel.innerHTML = "Boa noite!";}
+
+        // Exemplo usando Operador de Decisão
+
+        let painel1 = document.getElementById("demo");
+        let hora2 = new Date().getHours();
+        painel.innerHTML = 
+        (hora < 12) ? "Bom dia!":
+        (hora < 18) ? "Boa tarde!":
+                        "Boa noite!";
+    </script>
+</body>
+</html>
+```
   
