@@ -93,3 +93,30 @@ Resultado:
 </body>
 </html>
 ```
+
+### Comando `for of` - Iteração em Vetor (Elemento)
+Pega o elemento em si não sua posição
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estruturas de repetição</title>
+</head>
+<body>
+    <h2>for of</h2>
+    <p>Iteração nas propriedades de um objeto</p>
+    <p id="d1"></p>
+    <script>
+        const cars = ["BMW","Volvo","Saab", "Ford"];
+        let text = "";
+        for (let x of cars){
+            text += x + " "; // x é o nome do campo
+        }
+        document.getElementById("d1").innerHTML = text;
+    </script>
+</body>
+</html>
+```
