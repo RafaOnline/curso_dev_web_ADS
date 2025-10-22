@@ -38,7 +38,7 @@ for (let a =1; a <= 10; a++){
 }
 ```
 
-## Comando `for in` - Iteração em Objeto
+### Comando `for in` - Iteração em Objeto
 
 ```html
 <!DOCTYPE html>
@@ -68,3 +68,28 @@ Resultado:
 
 <img width="414" height="181" alt="image" src="https://github.com/user-attachments/assets/29bd8ab8-e1bc-426d-b7cc-d01ecdeeda08" />
 
+### Comando `for in` - Iteração em Vetor (Posicional)
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estruturas de repetição</title>
+</head>
+<body>
+    <h2>for in</h2>
+    <p>Iteração nas propriedades de um objeto</p>
+    <p id="d1"></p>
+    <script>
+        const cars = ["BMW","Volvo","Saab", "Ford"];
+        let text = "";
+        for (let x in cars){
+            text += cars[x] + " "; // x é o nome do campo
+        }
+        document.getElementById("d1").innerHTML = text;
+    </script>
+</body>
+</html>
+```
