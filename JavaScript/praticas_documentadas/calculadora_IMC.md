@@ -14,3 +14,5 @@ Após o calculo deverá ser apresentada a situação atual de pessoa, de acordo 
 | entre 30,0 e 34,9 | Obesidade grau 1 |
 | entre 35,0 e 39,9 | Obesidade grau 2 (severa) |
 | acima de 40 | Obesidade 3 (mórbita) |
+
+Código:
