@@ -13,3 +13,17 @@ while(a <= 10 ){
   a++;
 }
 ```
+
+## Comando `do While` - Estrutura Faça/Enquanto
+
+**Repetição Condicional com Teste ao Final**
+- Comandos são repetidos enquanto a condição for verdadeira, com teste ao final
+- Para mais de uma instrução, é obrigatório delimitar o bloco com chaves, mas para uma instrução simples as chaves são opcionais
+
+```javascript
+let a = 1;
+do {
+  console.log(a);
+  a++;
+} while(a <= 10);
+```
