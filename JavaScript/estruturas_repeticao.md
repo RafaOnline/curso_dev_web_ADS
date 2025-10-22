@@ -1,6 +1,6 @@
 # Estruturas de repetição
 
-## Comando `While` - Estrutura Enquanto/Faça
+## Comando `while` - Estrutura Enquanto/Faça
 
 **Repetição Condicional com Teste no Início**
 - Comandos são executados enquanto a condição for verdadeira
@@ -14,7 +14,7 @@ while(a <= 10 ){
 }
 ```
 
-## Comando `do While` - Estrutura Faça/Enquanto
+## Comando `do while` - Estrutura Faça/Enquanto
 
 **Repetição Condicional com Teste ao Final**
 - Comandos são repetidos enquanto a condição for verdadeira, com teste ao final
@@ -26,4 +26,14 @@ do {
   console.log(a);
   a++;
 } while(a <= 10);
+```
+
+## Comando `for` - Estrutura Para/Faça
+- Comandos são executados para cada valor fornecido na estrutura de controle
+- Divide a estrutura em três áreas: Inicialização, teste e incremento
+
+```javascript
+for (let a =1; a <= 10; a++){
+  console.log(a);
+}
 ```
