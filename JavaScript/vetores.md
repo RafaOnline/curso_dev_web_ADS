@@ -1,6 +1,6 @@
-## Utilização de Vetores
+#Composição e Criação de Vetores
 
-# Definição e Manipulação de Vetores
+## Definição e Manipulação de Vetores
 - Baseados na classe **Array*
 - Métodos na ordenação **sort**
 - Iteração através de **forEach**
