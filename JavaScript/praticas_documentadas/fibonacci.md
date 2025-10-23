@@ -83,3 +83,8 @@ o resultado será exibido -->
 </body>
 </html>
 ```
+
+Resultado: 
+
+<img width="301" height="117" alt="image" src="https://github.com/user-attachments/assets/ce3bdd47-6f4a-4c3a-aa4a-2031f4f49edd" />
+
