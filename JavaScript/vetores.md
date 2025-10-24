@@ -1,7 +1,7 @@
 # Composição e Criação de Vetores
 
 ## Definição e Manipulação de Vetores
-- Baseados na classe **Array*
+- Baseados na classe **Array**
 - Métodos na ordenação **sort**
 - Iteração através de **forEach**
 - Métodos **map** e **reduce**
