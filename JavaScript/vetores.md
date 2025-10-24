@@ -35,3 +35,29 @@ let vazio2 = new Array();
 console.log(cores[2]); //imprime green
 document.getElementById("demo").style.color = cores2[1]; //define fonte azul
 ```
+
+### Geração de texto com Join
+- Insere String a cada número no vetor
+- O resultado é transformado em Strings
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <script>
+        const valores = [1, 3, 4, 7, 8];
+        const saida = valores.join("::");
+        console.log(saida);
+    </script>
+</body>
+</html>
+```
+
+Resultado:
+
+<img width="552" height="207" alt="image" src="https://github.com/user-attachments/assets/46718c45-e01f-4f7c-a9ec-15a6ee082f92" />
+
