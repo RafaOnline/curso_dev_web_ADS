@@ -61,3 +61,61 @@ Resultado:
 
 <img width="552" height="207" alt="image" src="https://github.com/user-attachments/assets/46718c45-e01f-4f7c-a9ec-15a6ee082f92" />
 
+### Ordenação, Mapeamento e Redução
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo com Array e Funções</title>
+</head>
+
+<body>
+    <!-- Botão que executa a função "executar" quando clicado -->
+    <button onclick="executar()">Clique aqui</button>
+
+    <script>
+        // Função arrow chamada quando o botão é clicado
+        executar = () => {
+            // Cria um array com números
+            const valores = [1, 6, 5, 9, 2];
+
+            // Ordena o array em ordem alfabética (por padrão, sort converte para string)
+            // Exemplo: [1, 2, 5, 6, 9] — nesse caso funciona, mas em números grandes pode dar erro
+            valores.sort();
+
+            // Exibe o array ordenado no console
+            console.log(valores);
+
+            // Exibe o valor que está na posição 3 do array (lembrando que o índice começa em 0)
+            console.log(`Valores na posição 3: ${valores[3]}`);
+
+            // Percorre o array e mostra cada elemento com seu índice
+            valores.forEach((element, index) => console.log(`Valor[${index}]: ${element}`));
+
+            // Cria um novo array com todos os valores dobrados e soma tudo
+            // .map() → multiplica cada elemento por 2
+            // .reduce() → soma todos os elementos resultantes
+            const somaDobro = valores.map((e) => e * 2).reduce((a, b) => a + b);
+
+            // Exibe o resultado final no console
+            console.log("Soma 2x = " + somaDobro);
+        }
+    </script>
+</body>
+
+</html>
+
+```
+
+Resultado:
+
+<img width="552" height="176" alt="image" src="https://github.com/user-attachments/assets/fddf4c1c-f085-4834-8bfc-c4452eb5b918" />
+
+
+
+
+
