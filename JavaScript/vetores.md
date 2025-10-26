@@ -115,6 +115,47 @@ Resultado:
 
 <img width="552" height="176" alt="image" src="https://github.com/user-attachments/assets/fddf4c1c-f085-4834-8bfc-c4452eb5b918" />
 
+### Exemplo com randômicos
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Cria uma tabela que ocupa 100% da largura da página -->
+    <table style="width: 100%;">
+        <script>
+            // Define um array com três cores
+            const cores = ["red", "green", "blue"];
+
+            // Loop externo para criar 9 linhas na tabela
+            for (let i = 1; i < 10; i++) {
+                document.write("<tr>"); // Inicia uma nova linha da tabela
+
+                // Loop interno para criar 9 células por linha
+                for (let i = 1; i < 10; i++) {
+                    // Gera um número aleatório entre 0 e 2 para escolher uma cor
+                    let pos = Math.trunc(Math.random() * 3);
+
+                    // Escreve uma célula com a cor de fundo aleatória
+                    document.write(`<td style='background-color:${cores[pos]}'>&nbsp;</td>`);
+                }
+
+                document.write("</tr>"); // Fecha a linha da tabela
+            }
+        </script>
+    </table>
+</body>
+</html>
+```
+
+Resultado: 
+
+Cada vez que recarregar a página exibe um resultado aleatório.
+
+<img width="676" height="197" alt="image" src="https://github.com/user-attachments/assets/90036bb8-b096-407d-9d08-751b7371eb70" />
 
 
 
