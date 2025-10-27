@@ -296,3 +296,33 @@ Resulado:
 - slice(início, fim) retorna uma cópia parcial do array original, sem modificá-lo.
 - O índice início é incluído, mas o fim não é.
 - Aqui, slice(1, 6) pega os dias de segunda a sexta.
+
+### Inclusão e remoção com `Splice`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script>
+        const vetor = [1,2,3,4,5,6,7];
+        console.log(vetor); // 1,2,3,4,5,6,7
+        vetor.splice(2,3);
+        console.log(vetor); // 1,2,6,7
+
+        vetor.splice(2,0,"X","X");
+        console.log(vetor);// 1,2,"X","X",6,7
+    </script>
+</body>
+</html>
+```
+**Explicação do .splice(início, quantidade, item1, item2, ...):**
+- início: índice onde a alteração começa.
+- quantidade: quantos elementos serão removidos.
+- item1, item2, ...: elementos a serem inseridos (opcional).
+
+**Resumo do que acontece:**
+- Remove 3 elementos a partir do índice 2 → [3, 4, 5] são removidos.
+- Insere "X", "X" no índice 2 → eles entram antes do 6.
