@@ -272,3 +272,27 @@ Resulado:
 - Usa concat() para unir todos em um único array chamado myChildren.
 - Usa join(",") para transformar o array em uma string separada por vírgulas.
 - Exibe essa string no elemento `<p>` da página.
+
+### Cópia Slice
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script>
+        const dias = ["dom","seg","ter","qua","qui","sex","sab"];
+        const dias_uteis = dias.slice(1,6); // Início e fim+1
+        console.log(dias);
+        console.log(dias_uteis);
+    </script>
+</body>
+</html>
+```
+
+**Resumo:**
+- slice(início, fim) retorna uma cópia parcial do array original, sem modificá-lo.
+- O índice início é incluído, mas o fim não é.
+- Aqui, slice(1, 6) pega os dias de segunda a sexta.
