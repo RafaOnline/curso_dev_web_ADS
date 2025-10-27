@@ -194,4 +194,30 @@ Resulado:
 
 <img width="540" height="241" alt="image" src="https://github.com/user-attachments/assets/867bcc5b-3fe8-4c55-9a73-a4adcf90fc15" />
 
+## Inclusão de elementos
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script>
+        const valores = [3,1,7,8,4];
+        console.log(valores); // 3,1,7,8,4
+        valores.push(5);
+        console.log(valores); // 3,1,7,8,4,5
+
+        valores.unshift(6);
+        console.log(valores); // 6,3,1,7,8,4,5
+    </script>
+</body>
+</html>
+```
+
+**Resumo das funções usadas:**
+- push(valor): adiciona um valor no final do vetor.
+- unshift(valor): adiciona um valor no início do vetor.
+
 
