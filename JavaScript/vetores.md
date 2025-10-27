@@ -157,6 +157,41 @@ Cada vez que recarregar a página exibe um resultado aleatório.
 
 <img width="676" height="197" alt="image" src="https://github.com/user-attachments/assets/90036bb8-b096-407d-9d08-751b7371eb70" />
 
+### Matrizes, Vetores e Método flat
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Define o conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Garante que o layout seja responsivo em dispositivos móveis -->
+</head>
+<body>
+    <script>
+        // Cria uma matriz (array de arrays) com 3 linhas e 2 colunas
+        const matriz = [[1, 2], [3, 4], [5, 6]];
+
+        // Exibe a matriz original no console
+        console.log(matriz);
+
+        // Usa o método flat() para "achatar" a matriz em um vetor simples
+        const vetor = matriz.flat();
+
+        // Exibe o vetor resultante no console
+        console.log(vetor);
+    </script>
+</body>
+</html>
+```
+**O que o código faz:**
+- Cria uma matriz 2D com os valores [[1, 2], [3, 4], [5, 6]].
+- Usa o método .flat() para transformar essa matriz em um vetor 1D: [1, 2, 3, 4, 5, 6].
+- Mostra os dois no console para comparação.
+
+Resulado:
+
+<img width="540" height="241" alt="image" src="https://github.com/user-attachments/assets/867bcc5b-3fe8-4c55-9a73-a4adcf90fc15" />
 
 
