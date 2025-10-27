@@ -246,4 +246,29 @@ Resulado:
 - shift(): remove o primeiro elemento do vetor e retorna esse valor.
 - pop(): remove o último elemento do vetor e também retorna esse valor.
 
-
+### Junção de vetores
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h2>Método concat()</h2>
+    <p id="demo"></p>
+    <script>
+        const array1 = ["Cecilie", "Lone"];
+        const array2 = ["Emili", "Tobias", "Linus"];
+        const array3 = ["Robin", "Morgan"];
+        const myChildren = array1.concat(array2, array3);
+        document.getElementById("demo").innerHTML = myChildren.join(",")
+    </script>
+</body>
+</html>
+```
+**O que o código faz:**
+- Cria três arrays com nomes.
+- Usa concat() para unir todos em um único array chamado myChildren.
+- Usa join(",") para transformar o array em uma string separada por vírgulas.
+- Exibe essa string no elemento <p> da página.
