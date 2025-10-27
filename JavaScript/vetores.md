@@ -220,4 +220,30 @@ Resulado:
 - push(valor): adiciona um valor no final do vetor.
 - unshift(valor): adiciona um valor no início do vetor.
 
+### Remoção de elementos
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Remoção de elementos -->
+     <script>
+        const valores2 = [6,3,1,7,8,4,5];
+        console.log(valores2); // 6,3,1,7,8,4,5
+        console.log(valores.shift()); // Remove o primeiro número do vetor (6)
+        console.log(valores2); // 3,1,7,8,4,5
+        
+        console.log(valores2.pop()); // Remove o último número do vetor (5)
+        console.log(valores2); // 3,1,7,8,4
+     </script>
+</body>
+</html>
+```
+**Funções usadas:**
+- shift(): remove o primeiro elemento do vetor e retorna esse valor.
+- pop(): remove o último elemento do vetor e também retorna esse valor.
+
 
