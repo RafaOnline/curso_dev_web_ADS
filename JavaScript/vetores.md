@@ -271,4 +271,4 @@ Resulado:
 - Cria três arrays com nomes.
 - Usa concat() para unir todos em um único array chamado myChildren.
 - Usa join(",") para transformar o array em uma string separada por vírgulas.
-- Exibe essa string no elemento <p> da página.
+- Exibe essa string no elemento `<p>` da página.
