@@ -129,3 +129,31 @@ Resultado:
 
 <img width="1252" height="353" alt="image" src="https://github.com/user-attachments/assets/775c679c-86df-4588-9517-a727d34f6df1" />
 
+### 🧰 Tecnologias utilizadas:
+
+1. HTML5
+
+Estrutura básica da página.
+Define os elementos como `<form>`, `<input>`, `<div>`, etc.
+
+
+2. JavaScript
+
+Lógica de interação com o usuário.
+Manipulação de dados (vetor de valores, cálculo de média).
+Integração com a biblioteca do Google Charts.
+
+3. Google Charts
+
+Biblioteca para visualização de dados.
+Utilizada para desenhar o gráfico de linha com os valores inseridos.
+
+4. Bootstrap 5
+
+Framework CSS para estilização responsiva.
+Usado para layout, botões, formulários e alertas com classes como container, btn, form-control, alert, etc.
+
+5. CSS (via Bootstrap)
+
+Estilização visual da página.
+Responsividade e aparência moderna sem escrever CSS manualmente.
