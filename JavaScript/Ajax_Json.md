@@ -73,3 +73,51 @@ async function getText() {
 
 getText(); 
 ```
+
+**Utilizando Fetch API para HTTP no modo GET**
+- Esse código usa JavaScript moderno com async/await e fetch() para fazer uma requisição a uma API e obter dados em formato JSON
+- O método padrão é GET para consulta
+```javascript
+async function loadNames () {
+    // Define uma função assíncrona chamada loadNames
+
+    const response = await fetch('/api/names');
+    // Faz uma requisição GET para o endpoint /api/names
+    // 'await' espera a resposta antes de continuar
+
+    const names = await response.json();
+    // Converte a resposta para JSON (espera que seja um array de objetos)
+
+    console.log(names); // Exibe os dados no console
+    // Exemplo de saída: [{name:'Joker'}, {name:'Batman'}]
+}
+
+loadNames(); // Chama a função para executar a requisição
+```
+
+**Utilizando Fetch API para HTTP no modo POST**
+- Esse código JavaScript faz uma requisição POST para a API /api/names, enviando um objeto com o nome "James Gordon" e exibindo a resposta no console.
+- O método POST é utilizado para inclusão no REST
+```javascript
+async function postName() {
+    const object = { name: 'James Gordon' }; 
+    // Cria um objeto com a propriedade 'name'
+
+    const response = await fetch('/api/names', {
+        method: 'POST', // Define o método HTTP como POST
+        body: JSON.stringify(object), // Converte o objeto para JSON
+        headers: {
+            'Content-Type': 'application/json' 
+        }
+    });
+
+    const responseText = await response.text(); 
+    // Aguarda a resposta como texto
+
+    console.log(responseText); // Exibe a resposta no console (ex: 'OK')
+}
+
+postName(); // Chama a função para executar a requisição
+```
+
+
