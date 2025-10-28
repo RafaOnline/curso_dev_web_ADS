@@ -124,3 +124,8 @@ const drawBasic = () => {
 </body>
 </html>
 ```
+
+Resultado:
+
+<img width="1252" height="353" alt="image" src="https://github.com/user-attachments/assets/775c679c-86df-4588-9517-a727d34f6df1" />
+
