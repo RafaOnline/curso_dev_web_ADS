@@ -120,4 +120,35 @@ async function postName() {
 postName(); // Chama a função para executar a requisição
 ```
 
+### Exemplo de requisição API Pública
+Esse código faz uma requisição assíncrona para a API pública https://dummyjson.com/user e tenta exibir os dados retornados no console.
+```javascript
+const URL = 'https://dummyjson.com/users';
+async function chamarAPI() {
+    const resp = await fetch(URL); // Faz a requisição GET
 
+    if (resp.status === 200) {
+        const obj = await resp.json(); // Converte a resposta para JSON
+        console.log(obj); // Exibe os dados no console
+    } else {
+        console.log("Erro"); // Exibe mensagem de erro se status não for 200
+    }
+}
+
+chamarAPI(); // Chama a função
+```
+
+
+🔍 Exemplo de saída esperada:
+```json
+{
+  "users": [
+    { "id": 1, "firstName": "Terry", "lastName": "Medhurst", ... },
+    { "id": 2, "firstName": "Sheldon", "lastName": "Quigley", ... },
+    ...
+  ],
+  "total": 100,
+  "skip": 0,
+  "limit": 30
+}
+```
