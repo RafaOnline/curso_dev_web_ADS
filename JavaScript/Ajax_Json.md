@@ -39,3 +39,37 @@ xhttp.onreadystatechange = function(){
 xhttp.open("GET","endereço", true);
 xhttp.send();
 ```
+
+### Utilização do Fetch API
+<img width="237" height="116" alt="image" src="https://github.com/user-attachments/assets/8067facb-c360-4651-8525-99c208204061" />
+
+- O comando fetch substitui o objeto XmlHttpResquest, com diversas vantagens
+- Suporta todos os métodos do HTTP
+- Integração simples com APIs REST e uso de JSON
+- Trabalha no modelo assíncrono
+- Simplifica chamadas POST com passagem de valores JSON
+
+**Fetch API e o Modelo Assíncrono
+Esse código utiliza a API fetch() para carregar o conteúdo de um arquivo de texto e exibi-lo em elementos HTML. 
+```javascript
+let file = "fech_info.txt";
+// Define o nome do arquivo que será carregado
+
+// Primeira forma: usando .then()
+fetch(file)
+    .then(x => x.text()) // Converte a resposta para texto
+    .then(y => document.getElementById("demo1").innerHTML = y); 
+    // Exibe o conteúdo no elemento com id="demo1"
+```
+
+```javascript
+// Segunda forma: usando async/await
+async function getText() {
+    let x = await fetch(file); // Aguarda a resposta da requisição
+    let y = await x.text();    // Converte a resposta para texto
+    document.getElementById("demo2").innerHTML = y; 
+    // Exibe o conteúdo no elemento com id="demo2"
+}
+
+getText(); 
+```
