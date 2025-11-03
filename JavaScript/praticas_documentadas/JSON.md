@@ -69,3 +69,10 @@ async function getUsers(lista){
 O conjunto dos dois arquivos (HTML + JS) cria uma página simples que, ao clicar no link "Executar", 
 faz uma requisição à API https://randomuser.me para obter 10 usuários aleatórios. 
 Os nomes desses usuários são exibidos em uma lista (`<ul>`) na página.
+
+
+Resultado:
+
+<img width="355" height="274" alt="image" src="https://github.com/user-attachments/assets/ec67bb3f-23f4-4a77-8bdb-a82d92eeac8a" />
+
+Sempre ao clicar e executar a API trás 10 nomes diferentes.
