@@ -8,3 +8,6 @@
 
 ### Operadores de comparação
 <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/6a98c4cc-7bb9-43a5-84c5-61d3d07418de" />
+
+### Operadores Lógicos
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/b01341ec-c25c-4ea7-9fcd-1d78b1efcb8b" />
