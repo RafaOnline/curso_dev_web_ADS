@@ -10,3 +10,5 @@
 - Fracamente tipada;
 - Integração com diferentes bancos de dados;
 - Pode ser usada no controle de acessos, entre outros recursos;
+
+## A Sintaxe
