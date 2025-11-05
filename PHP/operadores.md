@@ -11,3 +11,6 @@
 
 ### Operadores Lógicos
 <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/b01341ec-c25c-4ea7-9fcd-1d78b1efcb8b" />
+
+### Operadores de incrementos/decremento
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/8140f7ed-d5cd-45ab-955f-b19cf4406665" />
