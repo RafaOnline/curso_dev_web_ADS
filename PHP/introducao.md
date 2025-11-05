@@ -1,6 +1,6 @@
 # Introdução a linguagem PHP
 
-### A linguagem PHP
+## A linguagem
 **Características**
 - Baseada em Scripts;
 - Server side;
