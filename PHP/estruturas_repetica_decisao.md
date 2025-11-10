@@ -15,3 +15,18 @@
 - Automatizar tarefas repetitivas;
 - Iterar sobre conjunto de dados;
 - Deve-se atentar para a condição, de modo que não entre em loop infinito;
+
+# Laços: Estruturas de Decisão
+
+### Caracteristicas 
+- Precisamnos repetirar a verificação se a idade é maior ou igual a 12?
+- E se a idade for maior que 18?
+
+<img width="310" height="316" alt="image" src="https://github.com/user-attachments/assets/7c65cf32-60ed-4a99-995b-4005b88fdfa9" />
+
+- É comum utilizar estruturas condicionais em programas;
+- Proporciona maior flexibilidade;
+- O programa pode seguir caminhos distintos, dependendo das condições estabelecidades;
+- Pode- ser utilizar estruturas condicionais várias vezes no msmo programa;
+- É comumm utilizar operadores no estabelecimento das condições;
+- Os programas ser compostos por um encadeamento de estruturas condicionais e de repetição;
