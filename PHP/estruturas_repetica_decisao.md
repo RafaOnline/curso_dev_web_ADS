@@ -10,3 +10,8 @@
 
 
 <img width="310" height="316" alt="image" src="https://github.com/user-attachments/assets/1eff7323-989c-4f8e-999a-dba616606683" />
+
+- As estruturas de repetição possibilitam executar um bloco de código múltiplas vezes;
+- Automatizar tarefas repetitivas;
+- Iterar sobre conjunto de dados;
+- Deve-se atentar para a condição, de modo que não entre em loop infinito;
