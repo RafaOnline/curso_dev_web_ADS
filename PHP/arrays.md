@@ -18,3 +18,32 @@
     - Luís: P1: 7.8, P2: 8.4
     - Fernanda: P1: 8.7, P2: 9.1
   - Neste contexto, a utilização de array multidimensional é mais indicado para armazenar os nomes e notas dos alunos;
+
+**Código**
+```php
+<?php
+    // Criação de um array multidimensional com os dados dos alunos.
+    // Cada sub-array contém: nome do aluno, nota da P1 e nota da P2.
+    $alunos = array(
+        array("João", 8.7, 9.0),
+        array("Maria", 9.2, 8.9),
+        array("Luis", 7.8, 8.4),
+        array("Fernanda", 8.7, 9.1)
+    );
+
+    // Exibe os dados do primeiro aluno (João): nome, nota da P1 e nota da P2.
+    echo $alunos[0][0] . ": P1:" . $alunos[0][1] . ": P2:" . $alunos[0][2] . "<br>";
+
+    // Exibe os dados do segundo aluno (Maria).
+    echo $alunos[1][0] . ": P1:" . $alunos[1][1] . ": P2:" . $alunos[1][2] . "<br>";
+
+    // Exibe os dados do terceiro aluno (Luis).
+    echo $alunos[2][0] . ": P1:" . $alunos[2][1] . ": P2:" . $alunos[2][2] . "<br>";
+
+    // Exibe os dados do quarto aluno (Fernanda).
+    echo $alunos[3][0] . ": P1:" . $alunos[3][1] . ": P2:" . $alunos[3][2] . "<br>";
+?>
+```
+
+### 📌 Resumo da funcionalidade
+Este script PHP cria uma lista de alunos com suas respectivas notas em duas provas (P1 e P2) e exibe essas informações formatadas na tela. Cada linha mostra o nome do aluno seguido das notas de cada prova.
