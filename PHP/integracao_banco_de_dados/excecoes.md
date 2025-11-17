@@ -9,5 +9,5 @@
 *   Exceções são comportamentos atípicos dos sistemas;
 *   PHP tem recursos para implementar tratamento de exceções.
 
-<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/c565bc4d-26d6-4541-808f-d25a847e8867" />
+    <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/c565bc4d-26d6-4541-808f-d25a847e8867" />
 
