@@ -20,3 +20,14 @@ Código de exemplo considerando que o banco não esteja na mesma máquina (A pr�
 
   <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/642d76d1-6187-4993-9f20-dc1304739497" />
 
+**Conclusão**
+
+*   A classe PDO oferece uma interface consistente e orientada a objetos para acessar bancos de dados, incluindo o PostgreSQL;
+*   Simplifica a execução de operações de banco de dados com métodos intuitivos e bem documentados;
+*   A conexão pode ser explicitamente encerrada definindo o objeto PDO como `null`, garantindo a liberação de recursos;
+*   A captura e tratamento de exceções com PDO permitem uma gestão de erros mais robusta e estruturada;
+*   Ou seja, o tratamento de exceções pode facilitar a identificação e resolução de problemas de conexão;
+*   PDO permite trocar o tipo de banco de dados sem grandes alterações no código, promovendo portabilidade.
+
+
+
